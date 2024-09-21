@@ -1,0 +1,157 @@
+/*  */
+
+@media (max-width:1122px) {
+
+    .sidebar {
+        z-index: 2;
+        transition: all 0.25s ease-in-out;
+        transform: translateX(-100%);
+        padding: 0px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-png-main {
+        background-color: transparent;
+        display: block;
+        border-bottom: 1px solid rgb(48, 54, 68);
+        width: fit-content;
+    }
+
+    .toggle2 {
+        transform: translateX(0%);
+    }
+
+    .group-body {
+        margin-left: 0px;
+    }
+
+    .group-body .s-2 .row,
+    .group-body .s-4 .col-6 {
+        margin-bottom: 20px;
+    }
+
+    .group-body .s-3 .row .col-4 {
+        margin: 20px 0px;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    header {
+        /* width: calc(100% - 100px); */
+    }
+
+    .topbar,
+    .sidebar.sidebar-toggle~.group-body-main .group-body {
+        margin-left: 50px;
+        width: 100%;
+        /* width: calc(100% - 50px); */
+    }
+
+    .toggle2 {
+        width: 240px;
+        padding: 0px 5px;
+    }
+
+    .sidebar.sidebar-toggle .title-li,
+    .sidebar.sidebar-toggle .box,
+    .sidebar.sidebar-toggle a,
+    .sidebar.sidebar-toggle .chevron-right {
+        display: block;
+    }
+
+    .sidebar.sidebar-toggle~header .topbar {
+        margin-left: 0px;
+    }
+
+    .sidebar.sidebar-toggle .sidebar>ul>li {
+        margin-top: 0px;
+    }
+
+    .sidebar.sidebar-toggle~.group-body-main .group-body {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .sidebar.sidebar-toggle~.group-body-main .topbar {
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    .sidebar.sidebar-toggle~.group-body-main .topbar {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .flag-li,
+    .maximize {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    .counter h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .counter p {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+
+    #counter {
+        margin-top: 140%;
+
+        li {
+            flex: 1;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+    }
+
+    .notification-dropdown {
+        margin-left: -80px;
+    }
+
+    .user-profile-dropdown {
+        margin-left: 0px;
+
+    }
+}
+
+@media (max-width:400px) {
+    .logo-png-main {
+        display: none;
+    }
+
+    .topbar {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .user-profile {
+        display: none;
+    }
+
+    .s-1 div {
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+#calendar {
+    margin-top: 50px;
+}
+
+@media (max-width:500px) {
+    .calender {
+        height: 100vh;
+    }
+}

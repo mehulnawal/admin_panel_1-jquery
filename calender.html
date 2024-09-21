@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender js</title>
+
+    <!-- fonts css -->
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/png" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- counter js file -->
+    <link rel="stylesheet" href="./assets/css/counter.css">
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <!-- calender -->
+    <link rel="stylesheet" href="./assets/css/calender.css">
+
+</head>
+
+<body>
+
+    <div class="group-body-wrapper flex">
+
+        <div class="sidebar">
+            <ul>
+                <li class="title-li flex items-center">
+                    <a class="title" href="javascript:void(0)">Menu</a>
+                </li>
+
+                <li class="flex items-center">
+                    <i data-feather="home"></i>
+                    <a href="dashboard.html">Dashboards</a>
+                    <span class="box">01</span>
+                </li>
+
+                <li class="title-li flex items-center">
+                    <a class="title" href="javascript:void(0)">Custom</a>
+                </li>
+
+                <li class="calendar-li flex items-center active">
+                    <i data-feather="calendar"></i>
+                    <a href="calender.html">Calendar</a>
+                    <i class="chevron-right" data-feather="chevron-right"></i>
+
+                    <ul class="dropdown ">
+                        <li>
+                            <a href="">Hello</a>
+                        </li>
+
+                        <li>
+                            <a href="">Hello</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="flex items-center">
+                    <i data-feather="book"></i>
+                    <a href="counter.html">Counter js</a>
+                    <i class="chevron-right" data-feather="chevron-right"></i>
+                </li>
+
+                <li class="flex items-center">
+                    <i data-feather="layout"></i>
+                    <a href="swiper.html">Swiper js</a>
+                    <span class="box">New</span>
+                </li>
+
+                <li class="flex items-center">
+                    <i data-feather="box"></i>
+                    <a href="sider.html">Slick js</a>
+                    <i class="chevron-right" data-feather="chevron-right"></i>
+                </li>
+
+                <li class="flex items-center">
+                    <i data-feather="map"></i>
+                    <a href="maps.html">Maps</a>
+                    <i class="chevron-right" data-feather="chevron-right"></i>
+                </li>
+
+                <li class=" flex items-center">
+                    <i data-feather="share-2"></i>
+                    <a href="headline.html">Headline js</a>
+                    <i class="chevron-right" data-feather="chevron-right"></i>
+                </li>
+
+                <li class="item flex items-center">
+                    <i data-feather="corner-left-down"></i>
+                    <a href="javascript:void(0)">Dropdown</a>
+                    <i class="chevron-right" data-feather="chevron-right"></i>
+                </li>
+
+                <div class="sidebar-dropdown">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0)">Home</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <li class="item flex items-center">
+                    <i data-feather="corner-left-down"></i>
+                    <a href="javascript:void(0)">Dropdown</a>
+                    <i class="chevron-right" data-feather="chevron-right"></i>
+                </li>
+
+                <div class="sidebar-dropdown">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0)">Home</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </ul>
+        </div>
+
+        <div class="group-body-main">
+            <header>
+                <div class="header-main flex">
+                    <div class="logo">
+                        <img class="logo-white" src="./assets/images/logo-light.png" alt="">
+                    </div>
+
+                    <div class="logo-png-main">
+                        <img class="logo-png" src="./assets/images/logo.png" alt="">
+                    </div>
+
+                    <div class="topbar flex items-center justify-between">
+                        <a href="javascript:void(0)">
+                            <i class="menu" data-feather="menu"></i>
+                        </a>
+
+                        <div class="topbar-p2 justify-self-end">
+                            <ul class="flex items-center">
+                                <li id="btnFullscreen" class="maximize">
+                                    <a href="javascript:void(0)">
+                                        <i data-feather="maximize"></i>
+                                    </a>
+                                </li>
+
+                                <li class="search-li">
+                                    <a href="javascript:void(0)">
+                                        <i data-feather="search"></i>
+                                    </a>
+
+                                    <div class="search-dropdown">
+                                        <form action="" method="">
+                                            <input type="text" name="search" id="search" placeholder="Search..">
+                                        </form>
+                                    </div>
+                                </li>
+
+                                <li class="flag-li">
+                                    <a href="javascript:void(0)">
+                                        <div class="flag">
+                                            <img class="us-flag" src="./assets/images/us.jpg" alt="">
+                                        </div>
+                                    </a>
+
+                                    <div class="flag-dropdown">
+                                        <ul>
+                                            <li>
+                                                <a href="javscript:void(0)" class="flex items-center">
+                                                    <img src="./assets/images/India.png" alt="">
+
+                                                    <h5>Hindi</h5>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javscript:void(0)" class="flex items-center">
+                                                    <img src="./assets/images/germany.jpg" alt="">
+
+                                                    <h5>German</h5>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javscript:void(0)" class="flex items-center">
+                                                    <img src="./assets/images/italy.jpg" alt="">
+
+                                                    <h5>Italian</h5>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javscript:void(0)" class="flex items-center">
+                                                    <img src="./assets/images/spain.jpg" alt="">
+
+                                                    <h5>Spanish</h5>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javscript:void(0)" class="flex items-center">
+                                                    <img src="./assets/images/russia.jpg" alt="">
+
+                                                    <h5>Russian</h5>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="notification-li">
+                                    <a href="javascript:void(0)">
+                                        <i data-feather="bell"></i>
+                                    </a>
+
+                                    <div class="notification-dropdown">
+                                        <div class="dropdown-inner">
+                                            <div class="title flex justify-between">
+                                                <h3>Notification</h3>
+                                                <h5>Clear all</h5>
+                                            </div>
+
+                                            <h4>Today</h4>
+
+                                            <div class="menu m1 flex items-center">
+                                                <i data-feather="user" class="user-img"></i>
+
+                                                <div>
+                                                    <span class="user">Dashtrap</span>
+                                                    <span class="time">1 mini ago</span>
+
+                                                    <p class="message">Lorem, ipsum dolor
+                                                    </p>
+                                                </div>
+                                                <i data-feather="x" class="cross"></i>
+                                            </div>
+
+                                            <div class="menu flex items-center">
+                                                <i data-feather="user" class="user-img"></i>
+
+                                                <div>
+                                                    <span class="user">Admin</span>
+                                                    <span class="time">1 hours ago</span>
+
+                                                    <p class="message">New user register
+                                                    </p>
+                                                </div>
+                                                <i data-feather="x" class="cross"></i>
+                                            </div>
+
+                                            <h4>YesterDay</h4>
+
+                                            <div class="menu flex items-center">
+                                                <img src="./assets/images/avatar-4.jpg" alt="" class="user-img">
+
+                                                <div>
+                                                    <span class="user">Dashtrap</span>
+                                                    <span class="time">1 Day ago</span>
+
+                                                    <p class="message">Lorem, ipsum dolor
+                                                    </p>
+                                                </div>
+                                                <i data-feather="x" class="cross"></i>
+                                            </div>
+
+                                            <h4>30 Aug 2024</h4>
+
+                                            <div class="menu flex items-center">
+                                                <i data-feather="user" class="user-img"></i>
+
+                                                <div>
+                                                    <span class="user">Datacorp</span>
+
+                                                    <p class="message">Lorem, ipsum dolor
+                                                    </p>
+                                                </div>
+                                                <i data-feather="x" class="cross"></i>
+                                            </div>
+
+                                            <div class="menu flex items-center">
+                                                <img src="./assets/images/avatar-2.jpg" alt="" class="user-img">
+
+                                                <div>
+                                                    <span class="user">Karen Robinson</span>
+
+                                                    <p class="message">Lorem, ipsum dolor
+                                                    </p>
+                                                </div>
+                                                <i data-feather="x" class="cross"></i>
+                                            </div>
+
+                                            <div class="view">View all</div>
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="sun-li">
+                                    <a href="javascript:void(0)">
+                                        <i class="sun" data-feather="sun"></i>
+                                    </a>
+                                </li>
+
+                                <li class="moon-li">
+                                    <a href="javascript:void(0)">
+                                        <i class="moon" data-feather="moon"></i>
+                                    </a>
+                                </li>
+
+                                <li class="user-profile-li">
+                                    <a href="javascript:void(0)" class="flex items-center gap-6">
+                                        <img class="user-1" src="./assets/images/avatar-4.jpg" alt="">
+
+                                        <div class="user-profile flex items-center text-white">
+                                            <span class="user-name">Jamie D.</span>
+                                            <i data-feather="chevron-down" class="chevron-down"></i>
+                                        </div>
+                                    </a>
+
+                                    <div class="user-profile-dropdown">
+                                        <ul>
+                                            <li>
+                                                <h3>
+                                                    Welcome!
+                                                </h3>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:void(0)">My Account</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:void(0)">Settings</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:void(0)">Lock screen</a>
+                                            </li>
+
+                                            <li class="logout">
+                                                <a href="javascript:void(0)">Logout</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="group-body calender">
+                <div id='calendar'></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery cdns -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+
+    <!-- Feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $(".sun").click(function () {
+                $(".group-body-wrapper").toggleClass("main-body-toggle")
+                $(".topbar").toggleClass("header-toggle")
+            })
+
+            $(".menu").click(function () {
+                $(".sidebar").toggleClass("toggle2");
+                $(".sidebar").toggleClass("sidebar-toggle");
+            });
+        });
+    </script>
+
+    <!-- feather icons script -->
+    <script>
+        feather.replace();
+    </script>
+
+    <!-- calender script -->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'>
+    </script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth'
+            });
+            calendar.render();
+        });
+
+    </script>
+
+    <!-- accordion js -->
+    <script>
+        $(".item").click(function () {
+            $(".sidebar-dropdown").slideUp(200);
+            if ($(this).parent().hasClass("active")) {
+                $(".item").removeClass("active");
+                $(this).parent().removeClass("active");
+            } else {
+                $(".item").removeClass("active");
+                $(this).next(".sidebar-dropdown").slideDown(200);
+                $(this).parent().addClass("active");
+            }
+        });
+    </script>
+
+    <!-- maximize icon script -->
+    <script>
+        function toggleFullscreen(elem) {
+            elem = elem || document.documentElement;
+            if (!document.fullscreenElement && !document.mozFullScreenElement &&
+                !document.webkitFullscreenElement && !document.msFullscreenElement) {
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                    elem.msRequestFullscreen();
+                } else if (elem.mozRequestFullScreen) {
+                    elem.mozRequestFullScreen();
+                } else if (elem.webkitRequestFullscreen) {
+                    elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+            }
+        }
+
+        document.getElementById('btnFullscreen').addEventListener('click', function () {
+            toggleFullscreen();
+        });
+
+        document.getElementById('exampleImage').addEventListener('click', function () {
+            toggleFullscreen(this);
+        });
+    </script>
+</body>
+
+</html>

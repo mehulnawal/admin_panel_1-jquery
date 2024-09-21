@@ -1,0 +1,14 @@
+.map {
+    height: 100vh;
+}
+
+.world h1,
+.world h2 {
+    margin: 20px 0px;
+}
+
+#map {
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+}

@@ -1,0 +1,31 @@
+.slick h2,
+.slick h1 {
+    margin: 20px 0px;
+}
+
+.single-item,
+.multiple-items {
+    display: flex;
+    justify-content: center;
+}
+
+.single-item div,
+.multiple-items div {
+    margin: 5px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.fade img {
+    margin: 10px 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
